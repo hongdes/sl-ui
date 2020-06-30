@@ -1,6 +1,6 @@
 <template>
   <div class="sl-row" :style="{ 'margin-left': - gutter / 2 + 'px', 'margin-right': - gutter / 2 + 'px'}">
-    <slot></slot>
+    <slot :gutter="gutter"></slot>
   </div>
 </template>
 <script>

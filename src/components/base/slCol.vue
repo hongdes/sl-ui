@@ -1,4 +1,4 @@
-<template>
+<template slot-scope="{ gutter }">
   <div  :class="[ 'sl-col',  `sl-col-${span}`]" :style="{ 'padding-right': gutter ? gutter / 2 + 'px' : '' }">
     <slot></slot>
   </div>
@@ -15,10 +15,7 @@ export default {
   components: {},
   props: {
     span: Number | String,
-    gutter: { // 提供 gutter 属性来指定每一栏之间的间隔，默认间隔为 0。
-      type: Number,
-      default: 0
-    },
+    
   }
 }
 </script>

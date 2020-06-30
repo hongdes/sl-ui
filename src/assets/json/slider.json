@@ -1,0 +1,97 @@
+[
+  {
+    "main": "Dashborad",
+    "icon": "icon-meun_dashborad",
+    "router": "ui/dashboard",
+    "children": []
+  },
+  {
+    "main": "Basic",
+    "icon": "icon-jichupeizhi_basic",
+    "router": "",
+    "children": [
+      {
+        "main": "container 布局容器",
+        "icon": "",
+        "router": "ui/container"
+      },
+      {
+        "main": "Button 按钮",
+        "icon": "ui",
+        "router": "ui/button"
+      },
+      {
+        "main": "Icon 字体",
+        "icon": "ui",
+        "router": "ui/icon"
+      }
+    ]
+  },
+  {
+    "main": "Form",
+    "icon": "icon-orderform",
+    "router": "",
+    "children": [
+      {
+        "main": "Radio 单选框",
+        "icon": "",
+        "router": "ui/radio"
+      },
+      {
+        "main": "Checkbox 多选框",
+        "icon": "ui",
+        "router": "ui/checkbox"
+      },
+      {
+        "main": "Input 输入框",
+        "icon": "ui",
+        "router": "ui/icon"
+      }
+    ]
+  },
+  {
+    "main": "Media",
+    "icon": "icon-media",
+    "router": "",
+    "children": [
+      {
+        "main": "Video 视频",
+        "icon": "",
+        "router": "ui/video"
+      },
+      {
+        "main": "Voice 音频",
+        "icon": "",
+        "router": "ui/voice"
+      },
+      {
+        "main": "Recorder 录音",
+        "icon": "",
+        "router": "ui/recorder"
+      }
+    ]
+  },
+  {
+    "main": "MathEditor",
+    "icon": "icon-media",
+    "router": "ui/mtEditor",
+    "children": []
+  },
+  {
+    "main": "Data",
+    "icon": "icon-media",
+    "router": "",
+    "children": [
+      {
+        "main": "Progress进度条",
+        "icon": "",
+        "router": "ui/progress"
+      },
+      {
+        "main": "Tag标签",
+        "icon": "",
+        "router": "ui/tag"
+      }
+    ]
+  }
+]

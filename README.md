@@ -1,4 +1,4 @@
-# admin
+# SLUI
 
 > A Vue.js project
 
